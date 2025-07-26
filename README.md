@@ -6,7 +6,7 @@ Going through roadmap.sh and doing as many projects as I can, hopefully!
 
 ---
 
-- [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+- &#x2611; [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
 - Basic HTML Website
 - Personal Portfolio
 - Changelog Component
