@@ -1,0 +1,56 @@
+:root{
+    --black: rgb(31, 31, 31);
+    --white: rgb(226, 233, 216);
+    --grey: rgb(128, 128, 128);
+    --night: rgb(37, 38, 45);
+}
+body{
+    background-color:var(--black);
+    color: white;
+    padding: 25px;
+    margin: 0 auto;
+}
+h1{
+    border-top: 2px solid var(--white);
+    padding-top: 25px;
+}
+h1, h2, h3, h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+p, h1 {
+    margin: 0 auto;
+}
+h2{
+    color: rgb(186, 255, 195);
+
+}
+h3{
+    color:rgb(207, 213, 255);
+}
+p, li{
+    font-size:16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    margin: 50px 0;
+}
+a{
+    color: var(--white);
+}
+a:visited{
+    color: rgb(125, 203, 205);
+}
+a:hover{
+    color: rgb(232, 171, 146);
+}
+
+div p{
+    font-size: 18px;
+}
+#title, #email{
+    font-size: 18px;
+}
+#links{
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 35px;
+}
