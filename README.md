@@ -7,9 +7,9 @@ Going through roadmap.sh and doing as many projects as I can, hopefully!
 ---
 
 - &#x2611; [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
-- Basic HTML Website
-- Personal Portfolio
-- Changelog Component
+- &#x2611; [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+- &#x2611; [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+- &#x2611; [Changelog Component](https://roadmap.sh/projects/changelog-component)
 - Testimonial Cards
 - Datepicker UI
 - Accessible Form UI
