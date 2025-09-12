@@ -1,8 +1,8 @@
 # Basic HTML Website
 <img src="../images/bhtmlw-index.png" alt="Basic HTML Website Index Screenshot" width="100%">
-<img src="../images/bhtmlw-projects.png" alt="Basic HTML Website Projects Screenshot" width="49%">
-<img src="../images/bhtmlw-articles.png" alt="Basic HTML Website Articles Screenshot" width="49%">
-<img src="../images/bhtmlw-contact.png" alt="Basic HTML Website Contact Screenshot" width="49%">
+<img src="../images/bhtmlw-projects.png" alt="Basic HTML Website Projects Screenshot" width="100%">
+<img src="../images/bhtmlw-articles.png" alt="Basic HTML Website Articles Screenshot" width="100%">
+<img src="../images/bhtmlw-contact.png" alt="Basic HTML Website Contact Screenshot" width="100%">
 
 ## Description
 In this project, you are required to create a simple HTML only website with multiple pages.
