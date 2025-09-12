@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Creaive IMS Basic HTML Website - Contact" />
+    <meta name="author" content="Creative IMS" />
+    <meta name="keywords" content="HTML, Website, Contact" />
+    <title>Creative IMS' Basic HTML Website - Contact</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact</h1>
+        <p>Contact me using the form below or email me at <a href="mailto:business@email.com">business@email.com</a></p>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name: </label>
+            <input 
+                type="text" 
+                id="name"
+                name="name"
+                size="20"
+                maxlength="30"
+                placeholder="e.g. John Doe" 
+                required
+                /><br>
+            <label for="email">Email: </label>
+            <input 
+                type="text" 
+                id="email"
+                name="email"
+                size="30"
+                maxlength="40"
+                placeholder="e.g. johndoe@email.com" 
+                required
+                /><br>
+            <label for="message">Message: </label><br>
+            <textarea
+                id="message"
+                name="message"
+                cols="60"
+                rows="5"
+                placeholder="What would you like to say?" 
+                required>
+            </textarea><br> 
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
+    <footer>
+        <address>
+            <p>Email:<a href="mailto:business@email.com">business@email.com</a></p>
+        </address>
+        <p>&copy; all rights reserved 2025</p>
+    </footer>
+</body>
+</html>

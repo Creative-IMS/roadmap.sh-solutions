@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin: 20px 0;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+#flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+    flex-flow: row nowrap;
+    column-gap: 50px;
+}
+#dates, #shipped{
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#dates li{
+    list-style: none;
+    text-align: right;
+    color: grey;
+}
+#shipped{
+    border-left: 2px solid black;
+    padding-left: 13px;
+
+}
+#shipped li{
+    text-align: left;
+    list-style:outside;
+}
+button{
+    width: 240px;
+    height: 50px;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 0 2px 2px grey;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(63, 82, 33);
+}
