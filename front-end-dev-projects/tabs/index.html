@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative IMS Tooltip UI</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+    <body>
+        <h1>Tabs</h1>
+        <div id="container">
+            <nav id="tab-panel">
+                <a href="#home" class="active">Home</a>
+                <a href="#mission">Mission</a>
+                <a href="#rules">Rules</a>
+                <a href="#apply">Apply</a>
+            </nav>
+            <div id="tab-content">
+                <section id="home" class="active">
+                    <h2>Home</h2>
+                    <p>
+                        Welcome to the home page of the space rangers!<br>
+                        You can learn more about our mission, internalize our rules, and even join the cause!
+                    </p>
+                </section>
+                <section id="mission">
+                    <h2>Our Mission</h2>
+                    <p>
+                        Our mission is to keep the peace across the cosmos. This includes but is by no means limited to:
+                        <ul>
+                            <li>Acting as a neutral party for negotiations between different systems</li>
+                            <li>Being at the forefront of agriculture and horiculture</li>
+                            <li>Advancing technology for the betterment of all society</li>
+                            <li>Keeping the bandits at bay</li>
+                            <li>Saving kittens and puppies from high trees</li>
+                        </ul>
+                    </p>
+                </section>
+                <section id="rules">
+                    <h2>Rules and Procedures</h2>
+                    <p>
+                        <ol>
+                            <li>Never take action without first talking with base command.</li>
+                            <li>Strive to be fair always.</li>
+                            <li>Safty first! Never do operations without taking the proper precautions!</li>
+                            <li>Never take bribes or monetary gains from any clients.</li>
+                            <li>Always upkeep the maintenance of your ship!</li>
+                        </ol>
+                    </p>
+                </section>
+                <section id="apply">
+                    <h2>Join Us!</h2>
+                    <p>
+                        Fill out the application below to start the process!<br> 
+                        We look foward to working with you!
+                        <form>
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="full-name" />
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age" min="1" max="999"/>
+                            <label for="reason">Reason for Joining</label>
+                            <textarea id="reason" name="reason" rows="5" cols="30" placeholder="Why do you want to join us?"></textarea>
+                            <button type="reset">Submit</button>
+                        </form>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer>This is a solution to a project on roadmap.sh</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

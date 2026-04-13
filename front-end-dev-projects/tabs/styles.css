@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: whitesmoke;
+    background-color: hsl(200, 29%, 11%);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 17px;
+    background-color: hsl(180, 30%, 50%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+nav a{
+    padding: 10px;
+    margin-right: 5px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s;
+}
+nav a:last-of-type{
+    margin-right: 0;
+}
+nav a:hover, nav a:focus{
+    background-color: greenyellow;
+    transition: background-color 0.5s;
+}
+#container {
+    background-color: whitesmoke;
+    width: 98%;
+    margin: auto;
+    color: black;
+    height: 80vh;
+    max-height: 500px;
+    max-width: 800px;
+    min-height: 500px;
+    min-width: 320px;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#tab-content{
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border-top-left-radius: 10px;    
+}
+/*area that tabs change*/
+section{
+    display: none;
+}
+section.active{
+    display: block;
+}
+#tab-panel a.active{
+    border-bottom: 5px rgb(169, 114, 221) solid;
+    transition: border 0.5s;
+}
+h2{
+    margin: 20px 0
+}
+p, p+ul, p+ol{
+    line-height: 150%;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
+p+ul{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}
+p+ol{
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 0 5px 25px; 
+}
+form{
+    display: flex;
+    flex-flow: column;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 1px;
+} 
+input{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+input:focus, textarea:focus{
+    outline: 3px yellowgreen  solid;
+}
+textarea{
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea::placeholder{
+    color: lightslategray
+}
+textarea, input{
+    box-shadow: 5px 1px 15px -10px lightslategrey;
+    border: 1px solid black;
+}
+#age{
+    width: 35%;
+}
+form button{
+    background-color: rgb(93, 194, 172);
+    width: 50%;
+    max-width: 200px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: 5px;
+    border: none;
+    transition: background-color color 0.2s;
+    cursor: pointer;
+}
+form button:hover, 
+form button:focus{
+    background-color: rgb(56, 154, 132);
+    color: whitesmoke;
+    transition: all 0.2s;
+}
+
+@media (min-width: 550px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    p+ul{
+        font-size: 18px;
+    }
+    p+ol{
+        font-size: 21px;
+    }
+}
+@media (min-width: 800px){
+    p{
+        font-size: 18px;
+    }
+}

@@ -1,33 +1,15 @@
 # roadmap.sh Solutions
 
-Going through roadmap.sh and doing as many projects as I can, hopefully!
+Going through roadmap.sh and doing as many projects as I can! 
 
-## Front End Developer Projects
+Aiming to finish all of them and more!
 
 ---
+[Frontend Projects Live Solutions](/index.html)
 
-- [x] [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
-- [x] [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
-- [x] [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
-- [x] [Changelog Component](https://roadmap.sh/projects/changelog-component)
-- [ ] Testimonial Cards
-- [ ] Datepicker UI
-- [ ] Accessible Form UI
-- [ ] Image Grid Layout
-- [ ] Tooltip UI
-- [ ] Tabs
-- [ ] Cookie Consent
-- [ ] Restricted Textarea
-- [ ] Accordion
-- [ ] Age Calculator
-- [ ] Flash Cards
-- [ ] Custom Dropdown
-- [ ] Task Tracker
-- [ ] Github Random Repository
-- [ ] Reddit Client
-- [ ] Temperature Converter
-- [ ] Pomodoro Timer
-- [ ] Quiz App
-- [ ] Weather Web App
-- [ ] 24hr Story Feature
+A website that has all of the projects that I've done so far. Check out the projects I've finished and see my progress so far.
 
+---
+[Roadmap.sh Frontend Projects](https://roadmap.sh/frontend/projects)
+
+Where the project ideas are coming from.

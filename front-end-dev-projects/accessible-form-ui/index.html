@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative IMS Accessible Form UI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Accessible Form UI</h1>
+    <section>
+        <form>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name"  required aria-required="true"  placeholder="John Doe"/>
+            <p id="err-msg-fn"></p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"  required aria-required="true" placeholder="johndoe@email.com"/>
+            <p id="err-msg-email"></p>
+            <label for="password">Enter Password:</label><br> 
+            <div>
+                <input type="password" id="password" name="password"  required aria-required="true" />
+                <div>
+                    <button type="button" id="password-visibility">&#128065;</button>
+                    <p id="visibility-msg-pw"></p>
+                </div>
+            </div>
+            <p id="err-msg-password"></p>
+            <label for="confirm-pw">Confirm Password:</label><br>
+            <div>
+                <input type="password" id="confirm-pw" name="confirm-pw"  required aria-required="true" />
+                <div>
+                    <button type="button" id="confirm-pw-visibility">&#128065;</button>
+                    <p id="visibility-msg-confirm-pw"></p>
+                </div>
+            </div>
+            <p id="err-msg-confirm-pw"></p>
+            <button type="submit">Update Profile</button>
+        </form>
+        <div id="progress">
+            <div id="graphic">
+                <div id="circle">&#9711;</div>
+                <p id="percentage">25%</p>
+            </div>
+            <h2>Profile Completeness</h2>
+            <div>
+                <ul>
+                    <li>Enter Full Name</li>
+                    <li>Enter Email</li>
+                    <li>Make Password</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>

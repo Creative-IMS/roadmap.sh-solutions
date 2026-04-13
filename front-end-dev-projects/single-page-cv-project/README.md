@@ -1,6 +1,6 @@
 # Single Page CV
-<img src="../images/spcv.png" width="100%" alt="Creative IMS Single Page CV Screnshot"/>
-
+## [Live]()
+## [Roadmap URL](https://roadmap.sh/projects/single-page-cv)
 ## Description
 In this project, you are required to create a single-page CV (Curriculum Vitae) using only HTML.
 

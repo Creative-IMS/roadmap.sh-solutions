@@ -1,9 +1,6 @@
 # Personal Portfolio
-<img src="../images/pp-index.png" alt="Personal Portfolio Index Screenshot" width="100%" />
-<img src="../images/pp-projects.png" alt="Personal Portfolio Projects Screenshot" width="100%" />
-<img src="../images/pp-articles.png" alt="Personal Portfolio Articles Screenshot" width="100%" />
-<img src="../images/pp-contact.png" alt="Personal Portfolio Contact Screenshot" width="100%" />
-
+## [Live]()
+## [Roadmap URL](https://roadmap.sh/projects/portfolio-website)
 ## Description
 In this project, you will style the HTML website structure you created previously in a different project. The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of your website.
 
